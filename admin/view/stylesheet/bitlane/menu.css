@@ -1,0 +1,25 @@
+/*
+ * Bitlane Search for OpenCart
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to a commercial license from NMC, in the file
+ * LICENSE.md that comes with it. Use, copy, modification or distribution of
+ * this file or its parts without NMC's written permission is not allowed.
+ *
+ * @author    Bitlane <https://bitlane.co>
+ * @copyright Since 2026 NMC
+ * @license   Commercial license, see LICENSE.md
+ */
+
+/* The admin menu's Bitlane item: the mark, in the menu's own color, where
+   the other items have a Font Awesome icon (16px in an 18px box). */
+.bitlane-menu-icon {
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  vertical-align: -2px;
+  background-color: currentColor;
+  -webkit-mask: url('../../image/bitlane/menu-icon.svg') center / 16px no-repeat;
+  mask: url('../../image/bitlane/menu-icon.svg') center / 16px no-repeat;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Bitlane",
+  "description": "Bitlane search for OpenCart 4: connect the store and Bitlane sets up search and keeps it in sync.",
+  "version": "0.1.0",
+  "author": "Bitlane",
+  "link": "https://bitlane.co/integrations/opencart"
+}

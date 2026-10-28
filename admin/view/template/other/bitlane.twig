@@ -1,0 +1,27 @@
+{#
+ # Bitlane Search for OpenCart
+ #
+ # NOTICE OF LICENSE
+ #
+ # This source file is subject to a commercial license from NMC, in the file
+ # LICENSE.md that comes with it. Use, copy, modification or distribution of
+ # this file or its parts without NMC's written permission is not allowed.
+ #
+ # @author    Bitlane <https://bitlane.co>
+ # @copyright Since 2026 NMC
+ # @license   Commercial license, see LICENSE.md
+ #}
+{# The Bitlane screen: the React app (screen/, built into
+   admin/view/javascript/bitlane) mounts on #bitlane-admin and reads its
+   settings from data-config, escaped by the controller. #}
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="container-fluid pt-3">
+    {% if problem %}
+      <div class="alert alert-danger"><strong>{{ text_problem }}</strong><br>{{ problem }}</div>
+    {% else %}
+      <div id="bitlane-admin" data-config="{{ config }}"></div>
+    {% endif %}
+  </div>
+</div>
+{{ footer }}
